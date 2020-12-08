@@ -403,8 +403,8 @@ def pilih_super():
 																	cekpoint.append(user+pass7)
 																	
 															
-		except:NB
-			passNB
+		except:
+			pass
 		
 	p = ThreadPool(30)
 	p.map(main, id)
